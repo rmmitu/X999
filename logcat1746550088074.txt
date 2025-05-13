@@ -1,0 +1,883 @@
+--------- beginning of main
+05-06 22:48:08.127 30619 30658 I CameraManagerGlobal: Connecting to camera service
+05-06 22:48:08.131 30619 30658 I CameraManagerGlobal: set camera ids 2 for 3party app
+05-06 22:48:08.140 30619 30648 W AudioCapabilities: Unsupported mime audio/x-adpcm-ms
+05-06 22:48:08.140 30619 30648 W AudioCapabilities: Unsupported mime audio/x-adpcm-dvi-ima
+05-06 22:48:08.140 30619 30648 W AudioCapabilities: Unsupported mime audio/alac
+05-06 22:48:08.140 30619 30648 W AudioCapabilities: Unsupported mime audio/ape
+05-06 22:48:08.142 30619 30648 W VideoCapabilities: Unrecognized profile/level 1/32 for video/mp4v-es
+05-06 22:48:08.142 30619 30648 W VideoCapabilities: Unrecognized profile/level 32768/2 for video/mp4v-es
+05-06 22:48:08.142 30619 30648 W VideoCapabilities: Unrecognized profile/level 32768/64 for video/mp4v-es
+05-06 22:48:08.143 30619 30648 W VideoCapabilities: Unsupported mime video/x-ms-wmv
+05-06 22:48:08.143 30619 30648 W VideoCapabilities: Unsupported mime video/xvid
+05-06 22:48:08.144 30619 30648 W VideoCapabilities: Unrecognized profile/level 1/32 for video/mp4v-es
+05-06 22:48:08.148 30619 30660 D CameraManager2: GotArray:0
+05-06 22:48:08.148 30619 30660 D CameraManager2: GotArray:1
+05-06 22:48:08.148 30619 30660 D CameraManager2: GotArray:2
+05-06 22:48:08.148 30619 30660 D CameraManager2: GotArray:3
+05-06 22:48:08.148 30619 30660 D CameraManager2: GotArray:4
+05-06 22:48:08.148 30619 30660 D CameraManager2: GotArray:6
+05-06 22:48:08.158 30619 30662 D CameraManager2: GotArray:0
+05-06 22:48:08.158 30619 30662 D CameraManager2: GotArray:1
+05-06 22:48:08.158 30619 30662 D CameraManager2: GotArray:2
+05-06 22:48:08.158 30619 30662 D CameraManager2: GotArray:3
+05-06 22:48:08.158 30619 30662 D CameraManager2: GotArray:4
+05-06 22:48:08.158 30619 30662 D CameraManager2: GotArray:6
+05-06 22:48:08.165 30619 30662 D CameraManager2: GotArray:0
+05-06 22:48:08.165 30619 30662 D CameraManager2: GotArray:1
+05-06 22:48:08.165 30619 30662 D CameraManager2: GotArray:2
+05-06 22:48:08.165 30619 30662 D CameraManager2: GotArray:3
+05-06 22:48:08.165 30619 30662 D CameraManager2: GotArray:4
+05-06 22:48:08.165 30619 30662 D CameraManager2: GotArray:6
+05-06 22:48:08.168 30619 30662 D CameraManager:  pixelArraySize.width/heigh=2328  1748 minsuperzoomsize: 50000000activeArrayRect.width/heigh=2328 1748
+05-06 22:48:08.172 30619 30662 D CameraManager:  pixelArraySize.width/heigh=4000  3000 minsuperzoomsize: 50000000activeArrayRect.width/heigh=4000 3000
+05-06 22:48:08.174 30619 30662 D CameraManager2: GotArray:0
+05-06 22:48:08.174 30619 30662 D CameraManager2: GotArray:1
+05-06 22:48:08.174 30619 30662 D CameraManager2: GotArray:2
+05-06 22:48:08.174 30619 30662 D CameraManager2: GotArray:3
+05-06 22:48:08.174 30619 30662 D CameraManager2: GotArray:4
+05-06 22:48:08.174 30619 30662 D CameraManager2: GotArray:6
+05-06 22:48:08.176 30619 30648 W CAM_A   : This apk does NOT targets R but it may be running on android build: RP1A.200720.011 1675755117 which  has a fix for b/149569689.  See go/gca-rvc-migration-plan for details. You must use a more recent GCA apk after cl/307677912
+05-06 22:48:08.177 30619 30648 D CameraManager2: GotArray:0
+05-06 22:48:08.177 30619 30648 D CameraManager2: GotArray:1
+05-06 22:48:08.177 30619 30648 D CameraManager2: GotArray:2
+05-06 22:48:08.177 30619 30648 D CameraManager2: GotArray:3
+05-06 22:48:08.177 30619 30648 D CameraManager2: GotArray:4
+05-06 22:48:08.177 30619 30648 D CameraManager2: GotArray:6
+05-06 22:48:08.179 30619 30662 D CameraManager2: GotArray:0
+05-06 22:48:08.179 30619 30662 D CameraManager2: GotArray:1
+05-06 22:48:08.179 30619 30662 D CameraManager2: GotArray:2
+05-06 22:48:08.179 30619 30662 D CameraManager2: GotArray:3
+05-06 22:48:08.179 30619 30662 D CameraManager2: GotArray:4
+05-06 22:48:08.179 30619 30662 D CameraManager2: GotArray:6
+05-06 22:48:08.182 30619 30648 I StreamConfigurationMap: ScreenPixWidth: ,packageName: com.google.android.GoogleCameraEngR13F2
+05-06 22:48:08.183 30619 30662 I StreamConfigurationMap: ScreenPixWidth: ,packageName: com.google.android.GoogleCameraEngR13F2
+05-06 22:48:08.190 30619 30671 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:08.190 30619 30671 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:08.198 30619 30670 D CameraManager:  pixelArraySize.width/heigh=4000  3000 minsuperzoomsize: 50000000activeArrayRect.width/heigh=4000 3000
+05-06 22:48:08.202 30619 30662 W AppSettings: Warning: providing system service power took 7 ms
+05-06 22:48:08.214 30619 30671 I libMEOW_gift: ctx:0x7347329698, ARC not Enabled.
+05-06 22:48:08.230 30619 30662 I BufferQueueConsumer: [](id:779b00000000,api:0,p:-1,c:30619) connect(): controlledByApp=true
+05-06 22:48:08.233 30619 30662 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@2842f34
+05-06 22:48:08.245 30619 30662 I BufferQueueConsumer: [](id:779b00000001,api:0,p:-1,c:30619) connect(): controlledByApp=true
+05-06 22:48:08.247 30619 30662 I BufferQueueConsumer: [](id:779b00000002,api:0,p:-1,c:30619) connect(): controlledByApp=true
+05-06 22:48:08.342 30619 30619 I DeezNuts: MSG: SLIDER 1 FOCUS: 1.0E-4
+05-06 22:48:08.342 30619 30619 I ProReC  : setprogres0
+05-06 22:48:08.345 30619 30619 I DeezNuts: MSG: SLIDER 0 IDX: 0
+05-06 22:48:08.345 30619 30619 I ProReC  : setprogres_iso0
+05-06 22:48:08.346 30619 30619 I za.defcomk.prorec.cust2.RotSeek: setprogres_iso0
+05-06 22:48:08.402 30619 30648 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-06 22:48:08.417 30619 30619 D ViewRootImpl[CameraLauncher]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+05-06 22:48:08.422 30619 30619 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:08.422 30619 30619 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:08.423 30619 30619 I InputTransport: Create ARC handle: 0x72172d2310
+05-06 22:48:08.423 30619 30619 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@17595ba, this = DecorView@a8b9c6b[CameraLauncher]
+05-06 22:48:08.426 30619 30670 I BufferQueueProducer: [ImageReader-1440x1080f22m11-30619-2](id:779b00000002,api:4,p:911,c:30619) connect(): api=4 producerControlledByApp=true
+05-06 22:48:08.431 30619 30670 I BufferQueueProducer: [ImageReader-4000x3000f20m30-30619-0](id:779b00000000,api:4,p:911,c:30619) connect(): api=4 producerControlledByApp=false
+05-06 22:48:08.432 30619 30670 I BufferQueueProducer: [ImageReader-1920x1080f23m52-30619-1](id:779b00000001,api:4,p:911,c:30619) connect(): api=4 producerControlledByApp=false
+05-06 22:48:08.535 30619 30650 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:08.535 30619 30650 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:08.536 30619 30650 I libMEOW_gift: ctx:0x734733fdb8, ARC not Enabled.
+05-06 22:48:08.549 30619 30650 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-06 22:48:08.575 30619 30619 W CAM_A   : Was already registered as ThermalStatusListener on AppStart
+05-06 22:48:08.634 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:08.634 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:08.634 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:08.634 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:08.634 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:08.634 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:08.799 30619 30619 W GcaGeneric-2: type=1400 audit(0.0:191772): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:08.811 30619 30619 W 00UiWorker: type=1400 audit(0.0:191773): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:08.821 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:08.821 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:08.821 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:08.821 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:08.821 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:08.821 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:08.860 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:08.860 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:08.860 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:08.860 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:08.860 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:08.860 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:08.935 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:08.935 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:08.935 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:08.935 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:08.935 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:08.935 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:08.938 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:08.938 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:08.938 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:08.938 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:08.938 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:08.938 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:08.940 30619 30662 W CAM_A   : UI view not yet initialized
+05-06 22:48:08.942 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:08.942 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:08.942 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:08.942 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:08.942 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:08.942 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:08.945 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:08.945 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:08.945 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:08.945 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:08.945 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:08.945 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.021 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.021 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.021 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.021 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.021 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.021 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.050 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.050 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.050 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.050 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.050 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.050 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.051 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.051 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.051 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.051 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.051 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.051 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.055 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.055 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.055 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.055 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.055 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.055 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.056 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.056 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.056 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.056 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.056 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.056 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.076 30619 30773 W CAM_A   : BufferFlinger is not available. Aborting display.
+05-06 22:48:09.087 30619 30658 I tflite  : Initialized TensorFlow Lite runtime.
+05-06 22:48:09.087 30619 30762 E GoLog   : INFO: Initialized TensorFlow Lite runtime.
+05-06 22:48:09.087 30619 30619 W CAM_A   : ModeSwitcher WAS ALREADY ENABLED!
+05-06 22:48:09.088 30619 30658 E libc    : Access denied finding property "ro.hardware.chipname"
+05-06 22:48:09.089 30619 30658 I tflite  : Created TensorFlow Lite XNNPACK delegate for CPU.
+05-06 22:48:09.089 30619 30658 I tflite  : Replacing 5 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions.
+05-06 22:48:09.089 30619 30762 E GoLog   : INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+05-06 22:48:09.089 30619 30762 E GoLog   : INFO: Replacing 5 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions.
+05-06 22:48:09.092 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.092 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.092 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.092 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.092 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.092 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.093 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.093 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.093 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.093 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.093 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.093 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.094 30619 30658 I Manager : DeviceManager::DeviceManager
+05-06 22:48:09.094 30619 30658 I Manager : findAvailableDevices
+05-06 22:48:09.095 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.095 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.095 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.095 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.095 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.095 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.097 30619 30619 I StreamConfigurationMap: ScreenPixWidth: ,packageName: com.google.android.GoogleCameraEngR13F2
+05-06 22:48:09.100 30619 30658 I Manager : Found interface mtk-dsp (version = ACCELERATOR_APUSYS)
+05-06 22:48:09.100 30619 30658 I Manager : Found interface mtk-gpu (version = ACCELERATOR_APUSYS)
+05-06 22:48:09.100 30619 30658 I Manager : Found interface mtk-neuron (version = ACCELERATOR_APUSYS)
+05-06 22:48:09.100 30619 30658 I tflite  : Created TensorFlow Lite delegate for NNAPI.
+05-06 22:48:09.100 30619 30658 I acceleration: ModifyGraphWithDelegate model namespace: unknown_namespace model id: unknown_model_id accelerator name: NNAPI:
+05-06 22:48:09.100 30619 30762 E GoLog   : INFO: Created TensorFlow Lite delegate for NNAPI.
+05-06 22:48:09.102 30619 30658 I tflite  : Replacing 97 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions.
+05-06 22:48:09.102 30619 30762 E GoLog   : INFO: Replacing 97 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions.
+05-06 22:48:09.102 30619 30658 I TypeManager: Failed to read /vendor/etc/nnapi_extensions_app_allowlist ; No app allowlisted for vendor extensions use.
+--------- beginning of system
+05-06 22:48:09.109 30619 30619 D AppResolutionTuner: loadTunerAppList + 
+05-06 22:48:09.111 30619 30619 D AppResolutionTuner: loadTunerAppList - 
+05-06 22:48:09.111 30619 30619 D SurfaceExt: initResolutionTunner, mPackageName:com.google.android.GoogleCameraEngR13F2,mContainPackageName:falsemXScaleValue:1.0,mYScaleValue:1.0
+05-06 22:48:09.131 30619 30619 I Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+05-06 22:48:09.162 30619 30773 W CAM_A   : BufferFlinger is not available. Aborting display.
+05-06 22:48:09.164 30619 30701 W CAM_A   : UNINITIALIZED > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:09.185 30619 30619 I DeezNuts: MSG: SLIDER 1 FOCUS: 1.0E-4
+05-06 22:48:09.185 30619 30619 I ProReC  : setprogres0
+05-06 22:48:09.185 30619 30619 I DeezNuts: MSG: SLIDER 0 IDX: 0
+05-06 22:48:09.185 30619 30619 I ProReC  : setprogres_iso0
+05-06 22:48:09.185 30619 30619 I za.defcomk.prorec.cust2.RotSeek: setprogres_iso0
+05-06 22:48:09.188 30619 30619 W View    : requestLayout() improperly called by com.google.android.material.button.MaterialButton{5a136fc VFED..C.. ......I. 0,0-0,0 #7f0b000b app:id/AuxButtonMain} during layout: running second layout pass
+05-06 22:48:09.214 30619 30619 D ViewRootImpl: setSurfaceViewCreated, created:true
+05-06 22:48:09.243 30619 30773 W CAM_A   : BufferFlinger is not available. Aborting display.
+05-06 22:48:09.244 30619 30701 W CAM_A   : UNINITIALIZED > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:09.266 30619 30658 I Manager : prepareModelFromCache: successfully prepared model from cache
+05-06 22:48:09.266 30619 30658 I ExecutionPlan: ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+05-06 22:48:09.270 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:09.270 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:09.270 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:09.270 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:09.270 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:09.270 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:09.275 30619 30619 W CAM_A   : ModeSwitcher WAS ALREADY ENABLED!
+05-06 22:48:09.275 30619 30783 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:09.275 30619 30783 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:09.282 30619 30783 I libMEOW_gift: ctx:0x7347403a60, ARC not Enabled.
+05-06 22:48:09.293 30619 30650 I OpenGLRenderer: Davey! duration=849ms; Flags=1, IntendedVsync=124118154362835, Vsync=124118837696182, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=124118842339628, AnimationStart=124118842343551, PerformTraversalsStart=124118842739782, DrawStart=124118927505167, SyncQueued=124118953866782, SyncStart=124118954146705, IssueDrawCommandsStart=124118963842474, SwapBuffers=124119002419551, FrameCompleted=124119003917551, DequeueBufferDuration=382616, QueueBufferDuration=439231, GpuCompleted=21474851744, 
+05-06 22:48:09.309 30619 30658 W CAM_A   : Extractor (frame) of type feature.acmi.imu.frame-straightness depends on foreign type feature.acmi.imu.camera-orientation! Feature values may be calculated out of order!
+05-06 22:48:09.309 30619 30658 W CAM_A   : Extractor (frame) of type feature.acmi.imu.frame-straightness depends on foreign type feature.acmi.imu.camera-orientation! Feature values may be calculated out of order!
+05-06 22:48:09.315 30619 30701 W CAM_A   : UNINITIALIZED > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:09.321 30619 30793 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:09.321 30619 30793 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:09.323 30619 30793 I libMEOW_gift: ctx:0x7347369fa0, ARC not Enabled.
+05-06 22:48:09.326 30619 30795 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:09.326 30619 30795 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:09.329 30619 30797 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:09.329 30619 30797 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:09.331 30619 30797 I libMEOW_gift: ctx:0x73473c9660, ARC not Enabled.
+05-06 22:48:09.335 30619 30793 I libMEOW_gift: ctx:0x7107889378, ARC not Enabled.
+05-06 22:48:09.338 30619 30801 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:09.338 30619 30801 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:09.341 30619 30803 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:09.342 30619 30803 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:09.351 30619 30803 I libMEOW_gift: ctx:0x710788e588, ARC not Enabled.
+05-06 22:48:09.362 30619 30648 W CAM_CameraDeviceVerifie: Tag CameraDeviceVerifier is 1 chars longer than limit.
+05-06 22:48:09.363 30619 30648 D CameraManager2: GotArray:0
+05-06 22:48:09.363 30619 30648 D CameraManager2: GotArray:1
+05-06 22:48:09.363 30619 30648 D CameraManager2: GotArray:2
+05-06 22:48:09.363 30619 30648 D CameraManager2: GotArray:3
+05-06 22:48:09.363 30619 30648 D CameraManager2: GotArray:4
+05-06 22:48:09.363 30619 30648 D CameraManager2: GotArray:6
+05-06 22:48:09.365 30619 30662 D CameraManager2: GotArray:0
+05-06 22:48:09.365 30619 30662 D CameraManager2: GotArray:1
+05-06 22:48:09.365 30619 30662 D CameraManager2: GotArray:2
+05-06 22:48:09.365 30619 30662 D CameraManager2: GotArray:3
+05-06 22:48:09.365 30619 30662 D CameraManager2: GotArray:4
+05-06 22:48:09.365 30619 30662 D CameraManager2: GotArray:6
+05-06 22:48:09.391 30619 30810 D CCodec  : allocate(c2.android.vorbis.decoder)
+05-06 22:48:09.394 30619 30795 E native  : E0506 22:48:09.394514   30795 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:09.394 30619 30795 E native  : Stack trace:
+05-06 22:48:09.394 30619 30795 E native  : 
+05-06 22:48:09.394 30619 30762 E GoLog   : E0506 22:48:09.394514   30795 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:09.394 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:09.394 30619 30762 E GoLog   : 
+05-06 22:48:09.394 30619 30762 E GoLog   : E0506 22:48:09.394849   30795 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:09.394 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:09.394 30619 30762 E GoLog   : 
+05-06 22:48:09.394 30619 30795 E native  : E0506 22:48:09.394849   30795 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:09.394 30619 30795 E native  : Stack trace:
+05-06 22:48:09.394 30619 30795 E native  : 
+05-06 22:48:09.395 30619 30810 I Codec2Client: Available Codec2 services: "software"
+05-06 22:48:09.401 30619 30795 I tflite  : Initialized TensorFlow Lite runtime.
+05-06 22:48:09.402 30619 30795 I tflite  : Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.403 30619 30762 E GoLog   : INFO: Initialized TensorFlow Lite runtime.
+05-06 22:48:09.403 30619 30762 E GoLog   : INFO: Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.406 30619 30810 I CCodec  : Created component [c2.android.vorbis.decoder]
+05-06 22:48:09.406 30619 30795 I tflite  : Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.407 30619 30762 E GoLog   : INFO: Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.407 30619 30810 D CCodecConfig: read media type: audio/vorbis
+05-06 22:48:09.414 30619 30810 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+05-06 22:48:09.415 30619 30810 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+05-06 22:48:09.415 30619 30810 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+05-06 22:48:09.415 30619 30810 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+05-06 22:48:09.415 30619 30810 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+05-06 22:48:09.415 30619 30810 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+05-06 22:48:09.415 30619 30810 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+05-06 22:48:09.417 30619 30795 D OPENCL_ICD_LOADER: initCLTraceLevel sCLTraceLevel = 0
+05-06 22:48:09.421 30619 30810 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-06 22:48:09.421 30619 30810 D CCodecConfig: c2 config diff is Dict {
+05-06 22:48:09.421 30619 30810 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+05-06 22:48:09.421 30619 30810 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+05-06 22:48:09.421 30619 30810 D CCodecConfig:   c2::u32 input.delay.value = 0
+05-06 22:48:09.421 30619 30810 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+05-06 22:48:09.421 30619 30810 D CCodecConfig:   string output.media-type.value = "audio/raw"
+05-06 22:48:09.421 30619 30810 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+05-06 22:48:09.421 30619 30810 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+05-06 22:48:09.421 30619 30810 D CCodecConfig: }
+05-06 22:48:09.422 30619 30810 D MediaCodec: flushMediametrics
+05-06 22:48:09.423 30619 30810 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+05-06 22:48:09.423 30619 30810 D CCodecConfig: no c2 equivalents for durationUs
+05-06 22:48:09.423 30619 30810 D CCodecConfig: no c2 equivalents for track-id
+05-06 22:48:09.423 30619 30810 D CCodecConfig: no c2 equivalents for csd-1
+05-06 22:48:09.423 30619 30810 D CCodecConfig: no c2 equivalents for channel-mask
+05-06 22:48:09.423 30619 30810 D CCodecConfig: no c2 equivalents for flags
+05-06 22:48:09.425 30619 30810 D CCodecConfig: c2 config diff is   c2::u32 raw.sample-rate.value = 44100
+05-06 22:48:09.425 30619 30810 W Codec2Client: query -- param skipped: index = 1107298332.
+05-06 22:48:09.426 30619 30810 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+05-06 22:48:09.426 30619 30810 D CCodec  :   int32_t channel-count = 1
+05-06 22:48:09.426 30619 30810 D CCodec  :   int32_t max-input-size = 32768
+05-06 22:48:09.426 30619 30810 D CCodec  :   string mime = "audio/vorbis"
+05-06 22:48:09.426 30619 30810 D CCodec  :   int32_t sample-rate = 44100
+05-06 22:48:09.426 30619 30810 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+05-06 22:48:09.426 30619 30810 D CCodec  :   int32_t channel-count = 1
+05-06 22:48:09.426 30619 30810 D CCodec  :   string mime = "audio/raw"
+05-06 22:48:09.426 30619 30810 D CCodec  :   int32_t sample-rate = 44100
+05-06 22:48:09.426 30619 30810 D CCodec  :   int32_t channel-mask = 1
+05-06 22:48:09.426 30619 30810 D CCodec  : }
+05-06 22:48:09.427 30619 30810 W Codec2Client: query -- param skipped: index = 1342179345.
+05-06 22:48:09.427 30619 30810 W Codec2Client: query -- param skipped: index = 2415921170.
+05-06 22:48:09.428 30619 30810 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.429 30619 30810 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.429 30619 30810 D CCodecBufferChannel: [c2.android.vorbis.decoder#985] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+05-06 22:48:09.430 30619 30810 I CCodecBufferChannel: [c2.android.vorbis.decoder#985] Created output block pool with allocatorID 16 => poolID 3152 - OK
+05-06 22:48:09.431 30619 30810 D CCodecBufferChannel: [c2.android.vorbis.decoder#985] Configured output block pool ids 3152 => OK
+05-06 22:48:09.433 30619 30810 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.439 30619 30619 W 00UiWorker: type=1400 audit(0.0:191803): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:09.447 30619 30619 W 00UiWorker: type=1400 audit(0.0:191804): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:09.451 30619 30814 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.451 30619 30619 W 00UiWorker: type=1400 audit(0.0:191805): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:09.455 30619 30619 W 00UiWorker: type=1400 audit(0.0:191806): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:09.463 30619 30619 W 00UiWorker: type=1400 audit(0.0:191807): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:09.470 30619 30701 W CAM_A   : UNINITIALIZED > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:09.471 30619 30795 E native  : E0506 22:48:09.471077   30795 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:09.471 30619 30795 E native  : Stack trace:
+05-06 22:48:09.471 30619 30795 E native  : 
+05-06 22:48:09.471 30619 30762 E GoLog   : E0506 22:48:09.471077   30795 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:09.471 30619 30795 E native  : E0506 22:48:09.471194   30795 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:09.471 30619 30795 E native  : Stack trace:
+05-06 22:48:09.471 30619 30795 E native  : 
+05-06 22:48:09.471 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:09.471 30619 30762 E GoLog   : 
+05-06 22:48:09.471 30619 30762 E GoLog   : E0506 22:48:09.471194   30795 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:09.471 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:09.471 30619 30762 E GoLog   : 
+05-06 22:48:09.473 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:09.480 30619 30795 I tflite  : Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.480 30619 30762 E GoLog   : INFO: Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.482 30619 30795 I tflite  : Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.483 30619 30762 E GoLog   : INFO: Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:09.524 30619 30810 D CCodecBufferChannel: [c2.android.vorbis.decoder#985] MediaCodec discarded an unknown buffer
+05-06 22:48:09.524 30619 30810 I chatty  : uid=10261(com.google.android.GoogleCameraEngR13F2) NDK MediaCodec_ identical 1 line
+05-06 22:48:09.524 30619 30810 D CCodecBufferChannel: [c2.android.vorbis.decoder#985] MediaCodec discarded an unknown buffer
+05-06 22:48:09.527 30619 30810 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-06 22:48:09.530 30619 30800 D MediaCodec: flushMediametrics
+05-06 22:48:09.543 30619 30820 D CCodec  : allocate(c2.android.vorbis.decoder)
+05-06 22:48:09.547 30619 30820 I CCodec  : Created component [c2.android.vorbis.decoder]
+05-06 22:48:09.548 30619 30820 D CCodecConfig: read media type: audio/vorbis
+05-06 22:48:09.552 30619 30820 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+05-06 22:48:09.553 30619 30820 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+05-06 22:48:09.553 30619 30820 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+05-06 22:48:09.553 30619 30820 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+05-06 22:48:09.553 30619 30820 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+05-06 22:48:09.553 30619 30820 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+05-06 22:48:09.553 30619 30820 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+05-06 22:48:09.556 30619 30820 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+05-06 22:48:09.556 30619 30820 D CCodecConfig: c2 config diff is Dict {
+05-06 22:48:09.556 30619 30820 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+05-06 22:48:09.556 30619 30820 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+05-06 22:48:09.556 30619 30820 D CCodecConfig:   c2::u32 input.delay.value = 0
+05-06 22:48:09.556 30619 30820 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+05-06 22:48:09.556 30619 30820 D CCodecConfig:   string output.media-type.value = "audio/raw"
+05-06 22:48:09.556 30619 30820 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+05-06 22:48:09.556 30619 30820 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+05-06 22:48:09.556 30619 30820 D CCodecConfig: }
+05-06 22:48:09.557 30619 30820 D MediaCodec: flushMediametrics
+05-06 22:48:09.557 30619 30820 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+05-06 22:48:09.557 30619 30820 D CCodecConfig: no c2 equivalents for durationUs
+05-06 22:48:09.557 30619 30820 D CCodecConfig: no c2 equivalents for track-id
+05-06 22:48:09.557 30619 30820 D CCodecConfig: no c2 equivalents for csd-1
+05-06 22:48:09.557 30619 30820 D CCodecConfig: no c2 equivalents for channel-mask
+05-06 22:48:09.557 30619 30820 D CCodecConfig: no c2 equivalents for flags
+05-06 22:48:09.561 30619 30820 W Codec2Client: query -- param skipped: index = 1107298332.
+05-06 22:48:09.561 30619 30820 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+05-06 22:48:09.561 30619 30820 D CCodec  :   int32_t channel-count = 1
+05-06 22:48:09.561 30619 30820 D CCodec  :   int32_t max-input-size = 32768
+05-06 22:48:09.561 30619 30820 D CCodec  :   string mime = "audio/vorbis"
+05-06 22:48:09.561 30619 30820 D CCodec  :   int32_t sample-rate = 48000
+05-06 22:48:09.561 30619 30820 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+05-06 22:48:09.561 30619 30820 D CCodec  :   int32_t channel-count = 1
+05-06 22:48:09.561 30619 30820 D CCodec  :   string mime = "audio/raw"
+05-06 22:48:09.561 30619 30820 D CCodec  :   int32_t sample-rate = 48000
+05-06 22:48:09.561 30619 30820 D CCodec  :   int32_t channel-mask = 1
+05-06 22:48:09.561 30619 30820 D CCodec  : }
+05-06 22:48:09.562 30619 30820 W Codec2Client: query -- param skipped: index = 1342179345.
+05-06 22:48:09.562 30619 30820 W Codec2Client: query -- param skipped: index = 2415921170.
+05-06 22:48:09.562 30619 30820 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.562 30619 30820 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.563 30619 30820 D CCodecBufferChannel: [c2.android.vorbis.decoder#291] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+05-06 22:48:09.566 30619 30820 I CCodecBufferChannel: [c2.android.vorbis.decoder#291] Created output block pool with allocatorID 16 => poolID 3154 - OK
+05-06 22:48:09.566 30619 30820 D CCodecBufferChannel: [c2.android.vorbis.decoder#291] Configured output block pool ids 3154 => OK
+05-06 22:48:09.588 30619 30820 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.620 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:09.620 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:09.620 30619 30701 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:09.622 30619 30814 E FMQ     : grantorIdx must be less than 3
+05-06 22:48:09.624 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:09.648 30619 30646 W CAM_A   : Framerate metadata does not exist for the video at content://media/external/video/media/1000029620
+05-06 22:48:09.679 30619 30820 D CCodecBufferChannel: [c2.android.vorbis.decoder#291] MediaCodec discarded an unknown buffer
+05-06 22:48:09.679 30619 30820 I chatty  : uid=10261(com.google.android.GoogleCameraEngR13F2) NDK MediaCodec_ identical 1 line
+05-06 22:48:09.679 30619 30820 D CCodecBufferChannel: [c2.android.vorbis.decoder#291] MediaCodec discarded an unknown buffer
+05-06 22:48:09.681 30619 30820 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+05-06 22:48:09.682 30619 30800 D MediaCodec: flushMediametrics
+05-06 22:48:09.708 30619 30646 W CAM_A   : Framerate metadata does not exist for the video at content://media/external/video/media/1000029525
+05-06 22:48:09.711 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:09.711 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:09.713 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:09.720 30619 30648 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:09.741 30619 30646 W CAM_A   : Framerate metadata does not exist for the video at content://media/external/video/media/1000029524
+05-06 22:48:09.774 30619 30646 W CAM_A   : Framerate metadata does not exist for the video at content://media/external/video/media/1000029419
+05-06 22:48:09.810 30619 30646 W CAM_A   : Framerate metadata does not exist for the video at content://media/external/video/media/1000028806
+05-06 22:48:09.822 30619 30658 W Glide   : Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+05-06 22:48:09.826 30619 30658 I TetheringManager: registerTetheringEventCallback:com.google.android.GoogleCameraEngR13F2
+05-06 22:48:09.829 30619 30658 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:09.829 30619 30658 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:09.831 30619 30658 I libMEOW_gift: ctx:0x73474ea858, ARC not Enabled.
+05-06 22:48:09.911 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:09.911 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:09.911 30619 30701 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:09.912 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.015 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:10.016 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:10.017 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.133 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:10.133 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 1.00 > 0.25
+05-06 22:48:10.133 30619 30701 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:10.134 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.234 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:10.235 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.50 > 0.25
+05-06 22:48:10.236 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.435 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:10.435 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:10.435 30619 30701 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:10.436 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.535 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:10.535 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:10.536 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.537 30619 30648 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:10.654 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:10.654 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 1.00 > 0.25
+05-06 22:48:10.654 30619 30701 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:10.655 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.713 30619 30619 D GameSpace: DecorView dispatchTouchEvent, isAccelerate : false , isTruboGame : false , isPalmRejection : false
+05-06 22:48:10.762 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:10.763 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.50 > 0.25
+05-06 22:48:10.763 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:10.886 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:10.886 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 1.00 > 0.25
+05-06 22:48:10.886 30619 30701 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:10.888 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:11.061 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:11.062 30619 30701 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:11.063 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:11.186 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:11.186 30619 30701 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:11.187 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:11.364 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:11.364 30619 30701 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:11.365 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:11.367 30619 30658 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:11.413 30619 30701 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:11.414 30619 30701 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.50 > 0.25
+05-06 22:48:11.415 30619 30701 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:11.421 30619 30646 W ProtoDataStoreFlagStore: Unable to retrieve flag snapshot for com.google.android.libraries.performance.primes#com.google.android.GoogleCameraEngR13F2, using defaults.
+05-06 22:48:11.464 30619 30619 W CAM_A   : Disconnecting the camera device because filmstrip was launched.
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: Unable to update local snapshot for com.google.android.libraries.performance.primes#com.google.android.GoogleCameraEngR13F2, may result in stale flags.
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: java.util.concurrent.ExecutionException: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg=com.google.android.GoogleCameraEngR13F2, sha256=[a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc], atk=false, ver=251333022.true (go/gsrlt)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at pfx.s(Unknown Source:20)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at pfx.get(Unknown Source:21)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at plk.I(Unknown Source:1)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at plk.ad(Unknown Source:9)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at nfm.d(Unknown Source:0)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at ngq.run(Unknown Source:9)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at java.lang.Thread.run(Thread.java:923)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: Caused by: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg=com.google.android.GoogleCameraEngR13F2, sha256=[a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc], atk=false, ver=251333022.true (go/gsrlt)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2374)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at android.os.Parcel.createException(Parcel.java:2358)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at android.os.Parcel.readException(Parcel.java:2341)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at android.os.Parcel.readException(Parcel.java:2283)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at bmn.z(Unknown Source:10)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at ktz.a(Unknown Source:38)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at kjd.f(Unknown Source:10)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at kkc.t(Unknown Source:9)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at kkc.u(Unknown Source:22)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at kkc.g(Unknown Source:29)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at kkc.h(Unknown Source:76)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at kkc.b(Unknown Source:14)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at klz.c(Unknown Source:114)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at klt.d(Unknown Source:6)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at klu.handleMessage(Unknown Source:307)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at ksg.b(Unknown Source:0)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at ksg.dispatchMessage(Unknown Source:0)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at android.os.Looper.loop(Looper.java:223)
+05-06 22:48:11.471 30619 30912 W ProtoDataStoreFlagStore: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: Retrieving snapshot for com.google.android.apps.camera#com.google.android.GoogleCameraEngR13F2 failed
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: java.util.concurrent.ExecutionException: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg=com.google.android.GoogleCameraEngR13F2, sha256=[a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc], atk=false, ver=251333022.true (go/gsrlt)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at mip.fb(Unknown Source:27)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at mip.cd(Unknown Source:63)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kuc.c(Unknown Source:12)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kuc.e(Unknown Source:35)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kuc.b(Unknown Source:1)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at gvh.a(Unknown Source:35)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at gvj.run(Unknown Source:9)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at law.run(Unknown Source:2)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at pio.a(Unknown Source:2)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at phs.run(Unknown Source:20)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at pip.run(Unknown Source:4)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at lbh.run(Unknown Source:2)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at lbg.run(Unknown Source:0)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at java.lang.Thread.run(Thread.java:923)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at lab.run(Unknown Source:5)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: Caused by: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg=com.google.android.GoogleCameraEngR13F2, sha256=[a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc], atk=false, ver=251333022.true (go/gsrlt)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2374)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at android.os.Parcel.createException(Parcel.java:2358)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at android.os.Parcel.readException(Parcel.java:2341)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at android.os.Parcel.readException(Parcel.java:2283)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at bmn.z(Unknown Source:10)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at ktz.a(Unknown Source:38)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kjd.f(Unknown Source:10)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kkc.t(Unknown Source:9)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kkc.u(Unknown Source:22)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kkc.g(Unknown Source:29)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kkc.h(Unknown Source:76)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at kkc.b(Unknown Source:14)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at klz.c(Unknown Source:114)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at klt.d(Unknown Source:6)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at klu.handleMessage(Unknown Source:307)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at ksg.b(Unknown Source:0)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at ksg.dispatchMessage(Unknown Source:0)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at android.os.Looper.loop(Looper.java:223)
+05-06 22:48:11.473 30619 30658 E PhenotypeFlagCommitter: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-06 22:48:11.498 30619 30920 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:11.498 30619 30920 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:11.499 30619 30801 E libEGL  : validate_display:87 error 3008 (EGL_BAD_DISPLAY)
+05-06 22:48:11.505 30619 30795 E libEGL  : validate_display:87 error 3008 (EGL_BAD_DISPLAY)
+05-06 22:48:11.517 30619 30702 W CAM_MetadataDst: onCaptureFailed for Frame 20 (images were captured)
+05-06 22:48:11.774 30619 30670 I BufferQueueProducer: [ImageReader-1440x1080f22m11-30619-2](id:779b00000002,api:4,p:911,c:30619) disconnect(): api=4
+05-06 22:48:11.781 30619 30670 I BufferQueueProducer: [ImageReader-4000x3000f20m30-30619-0](id:779b00000000,api:4,p:911,c:30619) disconnect(): api=4
+05-06 22:48:11.788 30619 30670 I BufferQueueProducer: [ImageReader-1920x1080f23m52-30619-1](id:779b00000001,api:4,p:911,c:30619) disconnect(): api=4
+05-06 22:48:12.236 30619 30619 W CAM_A   : Duplicate call to stopModule; skipping stop.
+05-06 22:48:12.250 30619 30619 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@17595ba, this = DecorView@a8b9c6b[CameraLauncher]
+05-06 22:48:13.469 30619 30687 I BufferQueueConsumer: [ImageReader-4000x3000f20m30-30619-0](id:779b00000000,api:0,p:-1,c:30619) disconnect()
+05-06 22:48:13.471 30619 30687 I BufferQueueConsumer: [ImageReader-1440x1080f22m11-30619-2](id:779b00000002,api:0,p:-1,c:30619) disconnect()
+05-06 22:48:13.736 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:13.736 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:13.736 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:13.736 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:13.736 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:13.736 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:13.738 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:13.738 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:13.738 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:13.738 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:13.738 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:13.738 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:13.741 30619 30619 D CameraManager2: GotArray:0
+05-06 22:48:13.741 30619 30619 D CameraManager2: GotArray:1
+05-06 22:48:13.741 30619 30619 D CameraManager2: GotArray:2
+05-06 22:48:13.741 30619 30619 D CameraManager2: GotArray:3
+05-06 22:48:13.741 30619 30619 D CameraManager2: GotArray:4
+05-06 22:48:13.741 30619 30619 D CameraManager2: GotArray:6
+05-06 22:48:13.744 30619 30619 I StreamConfigurationMap: ScreenPixWidth: ,packageName: com.google.android.GoogleCameraEngR13F2
+05-06 22:48:13.747 30619 31068 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:13.748 30619 31068 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:13.749 30619 31068 I libMEOW_gift: ctx:0x7347403a60, ARC not Enabled.
+05-06 22:48:13.756 30619 30619 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@17595ba, this = DecorView@a8b9c6b[CameraLauncher]
+05-06 22:48:13.757 30619 30670 D CameraManager:  pixelArraySize.width/heigh=4000  3000 minsuperzoomsize: 50000000activeArrayRect.width/heigh=4000 3000
+05-06 22:48:13.762 30619 30619 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@17595ba, this = DecorView@a8b9c6b[CameraLauncher]
+05-06 22:48:13.770 30619 30662 I BufferQueueConsumer: [](id:779b00000003,api:0,p:-1,c:30619) connect(): controlledByApp=true
+05-06 22:48:13.774 30619 30662 I BufferQueueConsumer: [](id:779b00000004,api:0,p:-1,c:30619) connect(): controlledByApp=true
+05-06 22:48:13.776 30619 30662 I BufferQueueConsumer: [](id:779b00000005,api:0,p:-1,c:30619) connect(): controlledByApp=true
+05-06 22:48:13.799 30619 30619 W CAM_ViewfinderSV0: surfaceChanged was already called or cancelled? Value: CreatedSurface{surface=Surface(name=null)/@0x6c90d8e, format=4, size=1440x1080}
+05-06 22:48:13.800 30619 30619 D ViewRootImpl: setSurfaceViewCreated, created:true
+05-06 22:48:13.875 30619 30619 D ViewRootImpl: setSurfaceViewCreated, created:false
+05-06 22:48:13.925 30619 30631 I eCameraEngR13F: NativeAlloc concurrent copying GC freed 70317(2873KB) AllocSpace objects, 1(20KB) LOS objects, 42% free, 8387KB/14MB, paused 508us total 154.004ms
+05-06 22:48:13.932 30619 30619 D ViewRootImpl: setSurfaceViewCreated, created:true
+05-06 22:48:13.998 30619 30670 I BufferQueueProducer: [ImageReader-1440x1080f22m11-30619-5](id:779b00000005,api:4,p:911,c:30619) connect(): api=4 producerControlledByApp=true
+05-06 22:48:13.999 30619 30670 I BufferQueueProducer: [ImageReader-4000x3000f20m30-30619-3](id:779b00000003,api:4,p:911,c:30619) connect(): api=4 producerControlledByApp=false
+05-06 22:48:14.000 30619 30670 I BufferQueueProducer: [ImageReader-1920x1080f23m52-30619-4](id:779b00000004,api:4,p:911,c:30619) connect(): api=4 producerControlledByApp=false
+05-06 22:48:14.055 30619 30619 W CAM_A   : ModeSwitcher WAS ALREADY ENABLED!
+05-06 22:48:14.509 30619 30813 D BufferPoolAccessor2.0: bufferpool2 0x72d72c22f8 : 0(0 size) total buffers - 0(0 size) used buffers - 2/9 (recycle/alloc) - 7/82 (fetch/transfer)
+05-06 22:48:14.509 30619 30813 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+05-06 22:48:14.684 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:14.686 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 3215.97 ms > 70.00 ms
+05-06 22:48:14.686 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 41.86 > 0.25
+05-06 22:48:14.687 30619 31122 W CAM_A   : PHOTO > result sensor delay = 42.75 > 1.10
+05-06 22:48:14.692 30619 30658 I tflite  : Replacing 5 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions.
+05-06 22:48:14.693 30619 30762 E GoLog   : INFO: Replacing 5 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions.
+05-06 22:48:14.687 30619 30619 W MicrovideoQShar: type=1400 audit(0.0:191824): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:14.697 30619 31215 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:14.697 30619 31215 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:14.698 30619 31215 I libMEOW_gift: ctx:0x7347386f08, ARC not Enabled.
+05-06 22:48:14.700 30619 30658 I acceleration: ModifyGraphWithDelegate model namespace: unknown_namespace model id: unknown_model_id accelerator name: NNAPI:
+05-06 22:48:14.701 30619 31221 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:14.701 30619 31221 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:14.701 30619 31220 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:14.701 30619 31220 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:14.702 30619 30658 I tflite  : Replacing 97 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions.
+05-06 22:48:14.702 30619 30762 E GoLog   : INFO: Replacing 97 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions.
+05-06 22:48:14.703 30619 31215 I libMEOW_gift: ctx:0x73474777c0, ARC not Enabled.
+05-06 22:48:14.704 30619 31222 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:14.704 30619 31222 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:14.705 30619 31220 I libMEOW_gift: ctx:0x73473685e0, ARC not Enabled.
+05-06 22:48:14.712 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:14.715 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:14.719 30619 31223 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:14.719 30619 31223 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:14.721 30619 31223 I libMEOW_gift: ctx:0x73473ca6c0, ARC not Enabled.
+05-06 22:48:14.721 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.98 > 0.25
+05-06 22:48:14.733 30619 31221 E native  : E0506 22:48:14.733049   31221 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:14.733 30619 31221 E native  : Stack trace:
+05-06 22:48:14.733 30619 31221 E native  : 
+05-06 22:48:14.733 30619 30762 E GoLog   : E0506 22:48:14.733049   31221 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:14.733 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:14.733 30619 30762 E GoLog   : 
+05-06 22:48:14.733 30619 31221 E native  : E0506 22:48:14.733757   31221 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:14.733 30619 31221 E native  : Stack trace:
+05-06 22:48:14.733 30619 31221 E native  : 
+05-06 22:48:14.733 30619 30762 E GoLog   : E0506 22:48:14.733757   31221 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_fe.tflite
+05-06 22:48:14.733 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:14.733 30619 30762 E GoLog   : 
+05-06 22:48:14.739 30619 31221 I tflite  : Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.739 30619 30762 E GoLog   : INFO: Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.741 30619 31221 I tflite  : Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.741 30619 30762 E GoLog   : INFO: Replacing 26 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.756 30619 30648 W CAM_A   : Extractor (frame) of type feature.acmi.imu.frame-straightness depends on foreign type feature.acmi.imu.camera-orientation! Feature values may be calculated out of order!
+05-06 22:48:14.757 30619 30648 W CAM_A   : Extractor (frame) of type feature.acmi.imu.frame-straightness depends on foreign type feature.acmi.imu.camera-orientation! Feature values may be calculated out of order!
+05-06 22:48:14.784 30619 31221 E native  : E0506 22:48:14.783922   31221 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:14.784 30619 31221 E native  : Stack trace:
+05-06 22:48:14.784 30619 31221 E native  : 
+05-06 22:48:14.784 30619 31221 E native  : E0506 22:48:14.784162   31221 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:14.784 30619 31221 E native  : Stack trace:
+05-06 22:48:14.784 30619 31221 E native  : 
+05-06 22:48:14.784 30619 30762 E GoLog   : E0506 22:48:14.783922   31221 resource_util_android.cc:65] generic::internal: RET_CHECK failure (third_party/mediapipe/util/resource_util_android.cc:65) Singleton<AssetManager>::get()->ReadFile(path, output) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:14.784 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:14.784 30619 30762 E GoLog   : 
+05-06 22:48:14.784 30619 30762 E GoLog   : E0506 22:48:14.784162   31221 asset_manager_util.cc:166] generic::internal: RET_CHECK failure (third_party/mediapipe/util/android/asset_manager_util.cc:166) ReadFile(asset_path, &asset_data) could not read asset: research/vision/loco/video/models/siamese_fcpp/mobile/model_21086792_30/siamese_end2end.tflite
+05-06 22:48:14.784 30619 30762 E GoLog   : Stack trace:
+05-06 22:48:14.784 30619 30762 E GoLog   : 
+05-06 22:48:14.792 30619 31227 D libMEOW : applied 1 plugins for [com.google.android.GoogleCameraEngR13F2]:
+05-06 22:48:14.792 30619 31227 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+05-06 22:48:14.794 30619 31221 I tflite  : Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.794 30619 30762 E GoLog   : INFO: Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.800 30619 31227 I libMEOW_gift: ctx:0x70f62cff08, ARC not Enabled.
+05-06 22:48:14.800 30619 31221 I tflite  : Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.801 30619 30762 E GoLog   : INFO: Replacing 47 node(s) with delegate (unknown) node, yielding 1 partitions.
+05-06 22:48:14.965 30619 30619 D GameSpace: DecorView dispatchTouchEvent, isAccelerate : false , isTruboGame : false , isPalmRejection : false
+05-06 22:48:14.988 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:14.990 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:14.990 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:14.990 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:14.991 30619 30658 I Manager : prepareModelFromCache: successfully prepared model from cache
+05-06 22:48:14.991 30619 30658 I ExecutionPlan: ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+05-06 22:48:15.027 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:15.028 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:15.029 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:15.259 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:15.260 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:15.260 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:15.260 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:15.308 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:15.310 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:15.311 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:15.509 30619 30813 D BufferPoolAccessor2.0: bufferpool2 0x72d72ce2e8 : 0(0 size) total buffers - 0(0 size) used buffers - 3/9 (recycle/alloc) - 6/40 (fetch/transfer)
+05-06 22:48:15.509 30619 30813 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+05-06 22:48:15.575 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:15.578 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:15.578 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:15.579 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:15.582 30619 30658 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:15.608 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:15.609 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:15.610 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:15.614 30619 31122 I BufferQueueConsumer: [ImageReader-1920x1080f23m52-30619-1](id:779b00000001,api:0,p:-1,c:30619) disconnect()
+05-06 22:48:15.871 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:15.874 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:15.876 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:15.877 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:15.898 30619 30619 D GameSpace: DecorView dispatchTouchEvent, isAccelerate : false , isTruboGame : false , isPalmRejection : false
+05-06 22:48:15.910 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:15.912 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:15.912 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:16.078 30619 30619 W MediaFsQModule: Returning Q MediaFs implementation
+05-06 22:48:16.130 30619 30662 D AudioTrack: INSP: type=audio,case=1,set=0x72f72dc4d0,stream_type=7,sample_rate=44100,format=0x1,channel_mask=0x1,frame_count=0,flags=0x4,notification_frames=0,session_id=0,transfer_type=0,uid=-1,pid=-1
+05-06 22:48:16.130 30619 30662 D AudioTrack: INSP: type=audio,case=1,attributes=1,content_type=4,usage=13,source=0,flags=0x801
+05-06 22:48:16.130 30619 30662 D AudioTrack: set(): Building AudioTrack with attributes: usage = 13, content = 4, flags = 0x801, tags = []
+05-06 22:48:16.131 30619 30662 D AudioTrack: set(): 0x72f72dc4d0, Create AudioTrackThread, tid = 31297
+05-06 22:48:16.149 30619 30662 D AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 12440
+05-06 22:48:16.150 30619 30662 D AudioTrack: createTrack_l(4851): 0x72f72dc4d0, mCblk = 0x70a7dc4000, mLatency = 324, mAfLatency = 42, frameCount = 12440, mSampleRate = 44100, mFlags = 0, mReqFrameCount = 12440, mNotificationFramesAct = 0
+05-06 22:48:16.150 30619 30662 D AudioTrack: setVolume(4851): 0x72f72dc4d0, left = 0.600000, right = 0.600000
+05-06 22:48:16.150 30619 30662 D AudioTrack: start(4851): 0x72f72dc4d0, prior state:STATE_STOPPED
+05-06 22:48:16.180 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:16.183 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:16.183 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:16.184 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:16.211 30619 31023 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10261; state: DISABLED
+05-06 22:48:16.214 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:16.216 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:16.216 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:16.267 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.285 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.307 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.324 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.347 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.362 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.379 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.396 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.421 30619 31296 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.432 30619 30765 W libgcam : [shot_helper.cc:202]: CheckFrameDuration: Unexpected timestamp gap between payload frames 9 and 8 (of 10).  Expected 75.0 ms gap; actual gap was 225.1 ms.  This could indicate dropped frames.
+05-06 22:48:16.432 30619 30765 W libgcam : [shot_helper.cc:202]: CheckFrameDuration: Unexpected timestamp gap between payload frames 7 and 6 (of 10).  Expected 75.0 ms gap; actual gap was 225.1 ms.  This could indicate dropped frames.
+05-06 22:48:16.432 30619 30765 W libgcam : [shot_helper.cc:202]: CheckFrameDuration: Unexpected timestamp gap between payload frames 5 and 4 (of 10).  Expected 75.0 ms gap; actual gap was 225.1 ms.  This could indicate dropped frames.
+05-06 22:48:16.432 30619 30765 W libgcam : [shot_helper.cc:202]: CheckFrameDuration: Unexpected timestamp gap between payload frames 3 and 2 (of 10).  Expected 75.0 ms gap; actual gap was 225.1 ms.  This could indicate dropped frames.
+05-06 22:48:16.432 30619 30765 W libgcam : [shot_helper.cc:202]: CheckFrameDuration: Unexpected timestamp gap between payload frames 1 and 0 (of 10).  Expected 75.0 ms gap; actual gap was 225.1 ms.  This could indicate dropped frames.
+05-06 22:48:16.470 30619 31315 D AudioTrack: stop(4851): 0x72f72dc4d0, prior state:STATE_ACTIVE
+05-06 22:48:16.471 30619 31315 D AudioTrack: stop(4851): 0x72f72dc4d0 stop done
+05-06 22:48:16.483 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:16.486 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:16.487 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:16.491 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:16.494 30619 30648 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:16.499 30619 30765 E libgcam : [camera_motion_blur_estimator.cc:57]: EstimateCameraMotionBlur: Can't estimate camera motion blur, because gyro data is missing.
+05-06 22:48:16.500 30619 30765 E libgcam : [camera_motion_blur_estimator.cc:57]: EstimateCameraMotionBlur: Can't estimate camera motion blur, because gyro data is missing.
+05-06 22:48:16.500 30619 30765 W libgcam : [shot_helper.cc:352]: LogViewfinderAeWarnings: viewfinder_short_tet (0.000ms) is further than expected from the capture TET (4771.563ms). Relative error: 100%.
+05-06 22:48:16.528 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:16.529 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:16.530 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:16.653 30619 30765 E libgcam : [camera_motion_blur_estimator.cc:57]: EstimateCameraMotionBlur: Can't estimate camera motion blur, because gyro data is missing.
+05-06 22:48:16.662 30619 30765 I chatty  : uid=10261(com.google.android.GoogleCameraEngR13F2) EndPyloadFr00 identical 6 lines
+05-06 22:48:16.663 30619 30765 E libgcam : [camera_motion_blur_estimator.cc:57]: EstimateCameraMotionBlur: Can't estimate camera motion blur, because gyro data is missing.
+05-06 22:48:16.701 30619 30765 W libgcam : [shot.cc:603]: ProcessCaptureBaseFrame: A large number of pixels (0.34%) were defective! This can affect performance and image quality, and should be fixed.
+05-06 22:48:16.748 30619 30631 I eCameraEngR13F: NativeAlloc concurrent copying GC freed 76323(3181KB) AllocSpace objects, 1(68KB) LOS objects, 41% free, 8617KB/14MB, paused 190us total 113.976ms
+05-06 22:48:16.770 30619 30633 W MessageQueue: Handler (android.os.Handler) {198a608} sending message to a Handler on a dead thread
+05-06 22:48:16.770 30619 30633 W MessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {198a608} sending message to a Handler on a dead thread
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:560)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:778)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:727)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:697)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.os.Handler.post(Handler.java:427)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at lam.execute(Unknown Source:2)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.hardware.camera2.impl.CallbackProxies$SessionStateCallbackProxy.onClosed(CallbackProxies.java:104)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.hardware.camera2.impl.CameraCaptureSessionImpl.close(CameraCaptureSessionImpl.java:587)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at android.hardware.camera2.impl.CameraCaptureSessionImpl.finalize(CameraCaptureSessionImpl.java:878)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:291)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at java.lang.Daemons$Daemon.run(Daemons.java:139)
+05-06 22:48:16.770 30619 30633 W MessageQueue: 	at java.lang.Thread.run(Thread.java:923)
+05-06 22:48:16.783 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:16.786 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:16.787 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:16.787 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:16.809 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:16.810 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:16.811 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:16.884 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=image/* className=com.facebook.timeline.stagingground.Fb4aProfilePictureShareActivityAlias
+05-06 22:48:16.884 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=image/* className=com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+05-06 22:48:16.885 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=image/* className=com.facebook.composer.shareintent.ShareToGroupsAlias
+05-06 22:48:16.885 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=image/* className=com.facebook.lite.composer.activities.ShareIntentMultiPhotoAlphabeticalAlias
+05-06 22:48:16.886 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=image/* className=com.facebook.messenger.intents.MediaEditShareIntentHandler
+05-06 22:48:16.886 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=image/* className=com.whatsapp.contact.ui.picker.ContactPicker
+05-06 22:48:16.899 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=video/* className=com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+05-06 22:48:16.899 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=video/* className=com.facebook.composer.shareintent.ShareToGroupsAlias
+05-06 22:48:16.899 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=video/* className=com.facebook.inspiration.fbshorts.shareintent.InpirationFbShortsShareAlias
+05-06 22:48:16.900 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=video/* className=com.facebook.lite.composer.activities.ShareIntentVideoAlphabeticalAlias
+05-06 22:48:16.900 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=video/* className=com.facebook.messenger.intents.MediaEditShareIntentHandler
+05-06 22:48:16.901 30619 30619 W CAM_A   : isListed: unknown activity. mimeType=video/* className=com.whatsapp.contact.ui.picker.ContactPicker
+05-06 22:48:17.011 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:17.013 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:17.016 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 1.00 > 0.25
+05-06 22:48:17.019 30619 31122 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:17.035 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:17.036 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:17.037 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.50 > 0.25
+05-06 22:48:17.202 30619 30631 I eCameraEngR13F: NativeAlloc concurrent copying GC freed 38367(2038KB) AllocSpace objects, 1(20KB) LOS objects, 41% free, 8696KB/14MB, paused 318us total 264.417ms
+05-06 22:48:17.300 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:17.302 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:17.307 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:17.307 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:17.322 30619 30648 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:17.335 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:17.343 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:17.344 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:17.605 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:17.607 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 225.11 ms > 70.00 ms
+05-06 22:48:17.607 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 2.00 > 0.25
+05-06 22:48:17.607 30619 31122 W CAM_A   : PHOTO > result sensor delay = 2.99 > 1.10
+05-06 22:48:17.643 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:17.644 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:17.645 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.67 > 0.25
+05-06 22:48:17.830 30619 30619 D GameSpace: DecorView dispatchTouchEvent, isAccelerate : false , isTruboGame : false , isPalmRejection : false
+05-06 22:48:17.985 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:17.987 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 300.15 ms > 70.00 ms
+05-06 22:48:17.987 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 3.00 > 0.25
+05-06 22:48:17.988 30619 31122 W CAM_A   : PHOTO > result sensor delay = 3.99 > 1.10
+05-06 22:48:18.017 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:18.018 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 75.04 ms > 70.00 ms
+05-06 22:48:18.018 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 0.75 > 0.25
+05-06 22:48:18.202 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:18.204 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:18.204 30619 31122 W CAM_A   : PHOTO > rel Δ(result sensor timestamp) = 1.00 > 0.25
+05-06 22:48:18.204 30619 31122 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:18.205 30619 30658 W gralloc4: Could not find component description for FourCC value 20363152
+05-06 22:48:18.333 30619 31122 W CameraMetadataJV: Expect face scores and rectangles to be non-null
+05-06 22:48:18.335 30619 31122 W CAM_A   : PHOTO > abs Δ(result sensor timestamp) = 150.07 ms > 70.00 ms
+05-06 22:48:18.336 30619 31122 W CAM_A   : PHOTO > result sensor delay = 1.99 > 1.10
+05-06 22:48:18.405 30619 30619 W CAM_A   : Disconnecting the camera device because filmstrip was launched.
+05-06 22:48:18.424 30619 31296 E native  : E0506 22:48:18.421753   31296 jni_environment.cc:81] Failed to detach current thread from the JVM. JavaVM::DetachCurrentThread returned: -1
+05-06 22:48:18.424 30619 30762 E GoLog   : E0506 22:48:18.421753   31296 jni_environment.cc:81] Failed to detach current thread from the JVM. JavaVM::DetachCurrentThread returned: -1
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: Retrieving snapshot for com.google.android.apps.camera#com.google.android.GoogleCameraEngR13F2 failed
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: java.util.concurrent.ExecutionException: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg=com.google.android.GoogleCameraEngR13F2, sha256=[a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc], atk=false, ver=251333022.true (go/gsrlt)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at mip.fb(Unknown Source:27)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at mip.cd(Unknown Source:63)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kuc.c(Unknown Source:12)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kuc.e(Unknown Source:35)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kuc.b(Unknown Source:1)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at gvh.a(Unknown Source:35)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at gvj.run(Unknown Source:9)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at law.run(Unknown Source:2)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at pio.a(Unknown Source:2)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at phs.run(Unknown Source:20)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at pip.run(Unknown Source:4)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at lbh.run(Unknown Source:2)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at lbg.run(Unknown Source:0)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at java.lang.Thread.run(Thread.java:923)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at lab.run(Unknown Source:5)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: Caused by: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg=com.google.android.GoogleCameraEngR13F2, sha256=[a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc], atk=false, ver=251333022.true (go/gsrlt)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2374)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at android.os.Parcel.createException(Parcel.java:2358)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at android.os.Parcel.readException(Parcel.java:2341)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at android.os.Parcel.readException(Parcel.java:2283)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at bmn.z(Unknown Source:10)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at ktz.a(Unknown Source:38)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kjd.f(Unknown Source:10)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kkc.t(Unknown Source:9)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kkc.u(Unknown Source:22)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kkc.e(Unknown Source:15)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at kkg.handleMessage(Unknown Source:920)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at ksg.b(Unknown Source:0)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at ksg.dispatchMessage(Unknown Source:0)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at android.os.Looper.loop(Looper.java:223)
+05-06 22:48:18.444 30619 30648 E PhenotypeFlagCommitter: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+05-06 22:48:18.493 30619 31222 E libEGL  : validate_display:87 error 3008 (EGL_BAD_DISPLAY)
+05-06 22:48:18.495 30619 31221 E libEGL  : validate_display:87 error 3008 (EGL_BAD_DISPLAY)
+05-06 22:48:18.776 30619 30619 W CAM_A   : Duplicate call to stopModule; skipping stop.
+05-06 22:48:18.810 30619 30619 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@17595ba, this = DecorView@a8b9c6b[CameraLauncher]
+05-06 22:48:18.870 30619 30631 I eCameraEngR13F: NativeAlloc concurrent copying GC freed 50214(2115KB) AllocSpace objects, 1(20KB) LOS objects, 42% free, 8379KB/14MB, paused 163us total 464.465ms
+05-06 22:48:18.884 30619 30670 I BufferQueueProducer: [ImageReader-1440x1080f22m11-30619-5](id:779b00000005,api:4,p:911,c:30619) disconnect(): api=4
+05-06 22:48:18.898 30619 30670 I BufferQueueProducer: [ImageReader-4000x3000f20m30-30619-3](id:779b00000003,api:4,p:911,c:30619) disconnect(): api=4
+05-06 22:48:18.910 30619 30670 I BufferQueueProducer: [ImageReader-1920x1080f23m52-30619-4](id:779b00000004,api:4,p:911,c:30619) disconnect(): api=4
+05-06 22:48:18.920 30619 30619 W Choreographer: Frame time is 0.238462  now = 124128630813783  timestampNanos = 124128631052245 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+05-06 22:48:19.483 30619 30619 W ImageSaver-1: type=1400 audit(0.0:191833): avc: granted { execute } for path="/data/user/0/com.google.android.GoogleCameraEngR13F2/files/libpatched_jni.so" dev="dm-11" ino=839845 scontext=u:r:untrusted_app_29:s0:c5,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c5,c257,c512,c768 tclass=file app=com.google.android.GoogleCameraEngR13F2
+05-06 22:48:19.684 30619 30631 I eCameraEngR13F: Background concurrent copying GC freed 2828(133KB) AllocSpace objects, 0(0B) LOS objects, 26% free, 16MB/22MB, paused 162us total 109.958ms
+05-06 22:48:20.152 30619 30619 W CAM_A   : Placeholder drawable removed: key=ShotId-0 evicted=false
+05-06 22:48:20.242 30619 31439 D CompatibilityChangeReporter: Compat change id reported: 149924527; UID 10261; state: ENABLED
+05-06 22:48:20.242 30619 31439 D CompatibilityChangeReporter: Compat change id reported: 132649864; UID 10261; state: DISABLED
+05-06 22:48:20.409 30619 31069 I BufferQueueConsumer: [ImageReader-4000x3000f20m30-30619-3](id:779b00000003,api:0,p:-1,c:30619) disconnect()
+05-06 22:48:20.410 30619 31069 I BufferQueueConsumer: [ImageReader-1440x1080f22m11-30619-5](id:779b00000005,api:0,p:-1,c:30619) disconnect()
